@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: rgba(4, 167, 119, 0.7);
+  color: #ffffff;
+  height: 900px; }
+  header nav {
+    border: solid 2px rgba(0, 0, 0, 0.1);
+    background-color: rgba(136, 212, 152, 0.25);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; }
+    header nav ul {
+      display: flex; }
+      header nav ul li {
+        list-style: none; }
+        header nav ul li a {
+          text-decoration: none;
+          color: #ffffff;
+          padding: 10px; }
+        header nav ul li select {
+          border: none;
+          background: none;
+          color: #ffffff;
+          font-size: 16px; }
+  header .contenido {
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    header .contenido h1 {
+      font-family: "Dosis", sans-serif;
+      font-size: 64px;
+      width: 420px;
+      text-align: center; }
+    header .contenido p {
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      width: 520px;
+      height: 96px;
+      padding: 40px 0px 100px 0px; }
+    header .contenido button {
+      width: 180px;
+      height: 50px;
+      border-radius: 5px;
+      border: solid 3px #ffffff;
+      background-color: transparent;
+      color: #ffffff;
+      font-size: 16px; }
+  header .header-bg {
+    background-image: linear-gradient(rgba(4, 167, 119, 0.7), rgba(4, 167, 119, 0.7)), url("./img/header-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 840px; }
+
+.background {
+  padding: 150px 70px 70px 135px; }
+  .background h2 {
+    font-family: "Dosis", sans-serif;
+    font-size: 36px;
+    color: #333333; }
+  .background h4 {
+    font-family: "Roboto", sans-serif;
+    color: #999999;
+    font-size: 20px;
+    padding: 40px 0px; }
+  .background .conteiner {
+    display: flex;
+    justify-content: space-around;
+    height: 563.5px; }
+    .background .conteiner p {
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      color: #333333;
+      width: 560px; }
+    .background .conteiner button {
+      width: 180px;
+      height: 50px;
+      border-radius: 5px;
+      border: solid 3px #ffffff;
+      background-color: transparent;
+      color: #ffffff;
+      font-size: 16px;
+      background-color: #ff3654;
+      border: 3px solid #ff3654;
+      margin-top: 100px; }
+    .background .conteiner .app-mockup {
+      width: 600px;
+      height: 563.5px;
+      margin-left: 75px; }
+      .background .conteiner .app-mockup img {
+        width: 100%;
+        height: auto; }
+
+.heading {
+  background: #2d2d2a;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 95px 0px;
+  font-family: "Dosis", sans-serif;
+  font-size: 48px; }
+
+.heading-bg {
+  display: flex;
+  justify-content: space-around; }
+  .heading-bg article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    background-color: rgba(4, 167, 119, 0.7);
+    padding: 0px 70px 70px 57.5px;
+    height: 800px; }
+    .heading-bg article h3 {
+      font-family: "Dosis", sans-serif;
+      font-size: 36px; }
+    .heading-bg article p {
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      padding: 33px 150px 70px 12.5px; }
+    .heading-bg article .botoncito {
+      display: flex;
+      align-self: flex-end; }
+      .heading-bg article .botoncito button {
+        width: 180px;
+        height: 50px;
+        border-radius: 5px;
+        border: solid 3px #ffffff;
+        background-color: transparent;
+        color: #ffffff;
+        font-size: 16px; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  padding: 150px 135px; }
+  footer .footer div {
+    width: 340px; }
+    footer .footer div span {
+      font-size: 20px; }
+    footer .footer div p {
+      font-size: 20px;
+      padding: 30px 0px 8px 0px; }
+    footer .footer div blockquote {
+      font-size: 14px; }
+  footer .footer-dos .sub-footer {
+    display: flex; }
+    footer .footer-dos .sub-footer div {
+      width: 80px;
+      padding: 0px 0px 0px 80px;
+      font-size: 20px; }
+    footer .footer-dos .sub-footer p {
+      padding: 30px 0px 0px 0px; }
